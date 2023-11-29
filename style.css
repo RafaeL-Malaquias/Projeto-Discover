@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    /* background: color ou img , reapeat position/size */
+    background: url(assets/bg-mobile.jpg) no-repeat top center /cover; /* atalho ou short*/
+
+}
+body * {
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+}
+
+#container {
+    width: 360px;
+    height: 712px;
+    margin: 0 auto;
+    padding: 56px;
+   
+    
+}
+/* como img é inline pode usar text-aling*/
+#profile {
+    text-align: center;
+    padding: 24px;
+}
+
+#profile img {
+    border-radius: 50%;
+    width: 112px;
+    margin: 0 auto;
+}
+
+#profile p {
+    margin-top: 8px;
+    font-weight: 400;
+    line-height: 24px;
+}
