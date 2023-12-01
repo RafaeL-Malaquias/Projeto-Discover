@@ -81,7 +81,6 @@ body * {
     position: absolute; /* removendo do fluxo*/
     z-index: 1;
     top: 50%;
-    right: 0;
    transform: translateY(-50%) ;
 }
 .light #switch button {
