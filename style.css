@@ -6,7 +6,7 @@
 
 :root{
     --text-color: white ;
-    --bg-url: url(assets/bg-desktop.jpg);
+    --bg-url: url(assets/bg-mobile.jpg);
     --stroke-color:rgba(255, 255, 255, 0.5);
     --surface-color:  rgba(255, 255, 255, 0.05);
     --surface-color-hover: rgba(255, 255, 255, 0.2);
@@ -16,7 +16,7 @@
 }
 .light {
     --text-color:black;
-    --bg-url: url(assets/bg-desktop-light.jpg);
+    --bg-url: url(assets/bg-mobile-light.jpg);
     --stroke-color:rgba(0, 0, 0, 0.5);
     --surface-color:  rgba(0, 0, 0, 0.05);
     --surface-color-hover: rgba(0, 0, 0, 0.02);
@@ -28,20 +28,22 @@
 body {
     /* background: color ou img , reapeat position/size */
     
-    background: var(--bg-url) no-repeat center /cover;  /* atalho ou short*/
-    /* background: var(--bg-url);
+    /*background: var(--bg-url) no-repeat center/cover;  /* atalho ou short*/
+        background: var(--bg-url);
         background-repeat: no-repeat;
         background-position: center;
-        background-size: cover;*/
+        background-size: cover;
+        height: 100vh;
 
 }
 body * {
     font-family: 'Inter', sans-serif;
-    color: var(--text-color)
+    color: var(--text-color);
 }
 
 #container {
-    width: 360px;
+    width: 100%;
+    max-width: 588px;
     margin: 56px auto;
     padding: 0 24px;
    
@@ -168,4 +170,14 @@ footer {
     padding: 24px 0;
     text-align: center;
     font-size: 14px;
+}
+
+/* ---- media queries */
+@media (min-width: 700px) {
+    :root {
+        --bg-url: url(./assets/bg-desktop.jpg);
+    }
+    .light {
+        --bg-url: url(./assets/bg-desktop-light.jpg);
+    }
 }
