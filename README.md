@@ -1,6 +1,8 @@
-<h1 align="center">DevLinks</h1>
+<h1 align="center">Dev.Links</h1>
 <p align="center">
-  <a href="https://rafael-malaquias.github.io/Projeto-Discover/"><img src="assets/Screenshot.png"></a>
+  <a href="https://rafael-malaquias.github.io/Projeto-Discover/">
+    <img height="470em" src="assets/Screenshot.png">
+    </a>
 </p>
 
 <p align="center">
