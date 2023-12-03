@@ -1,4 +1,7 @@
 <h1 align="center">DevLinks</h1>
+<p align="center">
+  <a href="https://rafael-malaquias.github.io/Projeto-Discover/"><img src="assets/Screenshot.png"></a>
+</p>
 
 <p align="center">
 Curso exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnologias WEB.
